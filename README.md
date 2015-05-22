@@ -5,7 +5,7 @@ Also its contains several utility to control shared preferences and other things
 
 #Module Tween
 -------------
-###Class TweenAnimation
+###TweenAnimation
 Contains the functions wanted to animate views left or right, on enter activity or on exit.
 
 *Enter activity<br/>
@@ -22,21 +22,20 @@ Contains the functions wanted to animate views left or right, on enter activity 
 ```toTop (view, duration, offset)```<br/>
 
 > How to use:<br/>
-```@Override
+
+       @Override
        public void enterActivity() {
            super.enterActivity();
-
            TweenAnimation.fromLeft(findViewById(R.id.test1), 1000, 300);
            TweenAnimation.fromRight(findViewById(R.id.test2), 1000, 300);
            TweenAnimation.fromTop(findViewById(R.id.test3), 1000, 300);
            TweenAnimation.fromBottom(findViewById(R.id.test4), 1000, 300);
            TweenAnimation.fromLeft(findViewById(R.id.test5), 1000, 300);
            TweenAnimation.fromRight(findViewById(R.id.test6), 1000, 300);
-
-       }```
+       }
 
 <br/>
-###Class BaseClass
+###BaseClass
 This is the activity parent you should extend it contains the enter and exit operations.
 
 ```void leftActivity()``` this is the method you should ovveride to make your views leave the activity in an animated way<br/>
@@ -89,6 +88,6 @@ Public variables to set the context, the activity and the app name:<br/>
     ```static String getToday(String format)``` --> get today date (string) with the specified format.<br/>
 
 ##Contribute and fork
-you can contribute in this repos, and fork it so if you want send a pull request.
+You can contribute in this repos, and fork it so if you want send a pull request.
 
 
