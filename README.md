@@ -88,6 +88,6 @@ Public variables to set the context, the activity and the app name:<br/>
     ```static String getToday(String format)``` --> get today date (string) with the specified format.<br/>
 
 ##Contribute and fork
-you can contribute in this repos, and fork it so if you want send a pull request.
+You can contribute in this repos, and fork it so if you want send a pull request.
 
 
