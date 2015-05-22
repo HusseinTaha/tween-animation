@@ -23,6 +23,6 @@ Contains the functions wanted to animate views left or right, on enter activity 
 ###Class BaseClass
 This is the activity parent you should extend it contains the enter and exit operations.
 
-```void leftActivity()``` this is the method you should ovveride to make your views left the activity in an animated way<br/>
+```void leftActivity()``` this is the method you should ovveride to make your views leave the activity in an animated way<br/>
   ```void enterActivity()``` this is the method you should ovveride to make your views enter the activity in an animated way<br/>
 
