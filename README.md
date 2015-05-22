@@ -22,7 +22,8 @@ Contains the functions wanted to animate views left or right, on enter activity 
 ```toTop (view, duration, offset)```<br/>
 
 > How to use:<br/>
-```@Override
+
+       @Override
        public void enterActivity() {
            super.enterActivity();
            TweenAnimation.fromLeft(findViewById(R.id.test1), 1000, 300);
@@ -31,7 +32,7 @@ Contains the functions wanted to animate views left or right, on enter activity 
            TweenAnimation.fromBottom(findViewById(R.id.test4), 1000, 300);
            TweenAnimation.fromLeft(findViewById(R.id.test5), 1000, 300);
            TweenAnimation.fromRight(findViewById(R.id.test6), 1000, 300);
-       }```
+       }
 
 <br/>
 ###BaseClass
